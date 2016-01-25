@@ -1,0 +1,16 @@
+{
+  "tabSize": 2,
+  "sass.enabled": false,
+  "path": {
+    "scss/oracle.scss": {
+      "sass.enabled": true,
+      "sass.options": {
+        "output": "../css/oracle.css",
+        "includePaths": [],
+        "imagePath": null,
+        "sourceComments": "normal",
+        "outputStyle": "nested"
+      }
+    }
+  }
+}

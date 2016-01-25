@@ -1,0 +1,14 @@
+//Please think of the children. 
+//Keep this file clean by only importing.
+//Also, pay no attention to the uglyfixes. Because they're ugly.
+
+//Import Utilities:
+@import "utilities/_reset";
+@import "utilities/_mixins";
+@import "utilities/_fonts";
+@import "utilities/_colours";
+@import "utilities/_icons";
+
+//Import Templates.
+@import "templates/_homepage.scss";
+@import "templates/_interior.scss";
