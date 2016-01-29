@@ -1,4 +1,3 @@
-/* line 14, /Users/shepherd/Desktop/oracle/scss/utilities/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,43 +18,42 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-/* HTML5 display-role reset for older browsers */
-/* line 24, /Users/shepherd/Desktop/oracle/scss/utilities/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block; }
 
-/* line 28, /Users/shepherd/Desktop/oracle/scss/utilities/_reset.scss */
 body {
   line-height: 1;
   overflow-x: hidden;
   overflow-y: scroll; }
 
-/* line 34, /Users/shepherd/Desktop/oracle/scss/utilities/_reset.scss */
 ol, ul {
   list-style: none; }
 
-/* line 38, /Users/shepherd/Desktop/oracle/scss/utilities/_reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 43, /Users/shepherd/Desktop/oracle/scss/utilities/_reset.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: ''; }
 
-/* line 48, /Users/shepherd/Desktop/oracle/scss/utilities/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* Layout mixins */
-/* Media Query mixins */
-/* Retina Mixin */
-/* Print media query Mixin */
-/* line 1, /Users/shepherd/Desktop/oracle/scss/templates/_homepage.scss */
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 16px; }
+
 main {
   display: block; }
 
-/*# sourceMappingURL=oracle.css.map */
+.body-test {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.main {
+  display: block; }

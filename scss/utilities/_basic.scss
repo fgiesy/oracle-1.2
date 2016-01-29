@@ -1,0 +1,13 @@
+$baseFontSize: 10px;
+
+html {
+  font-size: $baseFontSize;  //Sets up the Base 10 stuff
+}
+
+body {
+  font-size: $baseFontSize + 6; //sets standard body font at 16px;
+}
+
+main {
+  display: block; //html5 shiv.
+}

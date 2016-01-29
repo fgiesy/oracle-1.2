@@ -1,14 +1,28 @@
-//Please think of the children. 
+//Please think of the children
 //Keep this file clean by only importing.
 //Also, pay no attention to the uglyfixes. Because they're ugly.
 
 //Import Utilities:
-@import "utilities/_reset";
-@import "utilities/_mixins";
-@import "utilities/_fonts";
-@import "utilities/_colours";
-@import "utilities/_icons";
+@import "utilities/reset";
+@import "utilities/basic";
+@import "utilities/mixins";
+@import "utilities/fonts";
+@import "utilities/colours";
+@import "utilities/icons";
+
+
+//Import Atoms:
+
+
+
+//Import Blocks:
+
+
+//Import Layouts:
+@import "layouts/header";
+@import "layouts/content";
+@import "layouts/footer";
 
 //Import Templates.
-@import "templates/_homepage.scss";
-@import "templates/_interior.scss";
+@import "templates/homepage";
+@import "templates/interior";
